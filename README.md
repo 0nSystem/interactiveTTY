@@ -1,13 +1,13 @@
 # interactiveTTY
 
-##Dependencias
+## Dependencias
 
 **tmux**
 
 *Instalacion: sudo apt install tmux -y*
 
 
-##Como funciona
+## Como funciona
 
 **./interactiveTTY.sh [port_value]**
 
