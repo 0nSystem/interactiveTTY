@@ -81,7 +81,8 @@ executeprogram()
     tmux send-keys -t $panel "fg" Enter
     tmux send-keys -t $panel "export TERM=$TERM" Enter
     tmux send-keys -t $panel "export SHELL=bash" Enter
-	tmux select-window -t $windowReverse
+	tmux send-keys -t $panel "clear" Enter
+tmux select-window -t $windowReverse
 }
 
 
